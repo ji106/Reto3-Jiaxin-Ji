@@ -6,17 +6,17 @@ function obtenerUsuarios() {
     return JSON.parse(fs.readFileSync(ruta, 'utf8'));
 }
 
-fuction obtenerPeliculas() {
+function obtenerPeliculas() {
     const ruta = path.join(__dirname, '../data/peliculas.json');
     return JSON.parse(fs.readFileSync(ruta, 'utf8'));
 }
 
-fuction buscarUsuario(usuario, clave) {
+function buscarUsuario(usuario, clave) {
     const usuarios = obtenerUsuarios();
     return usuarios.find(u => u.username === usuario && u.password === clave);
 }
 
-fuction obtenerPeliculaPorId(id) {
+function obtenerPeliculaPorId(id) {
     const peliculas = obtenerPelicula();
     return peliculas.find(p => p.id == id);
 }
