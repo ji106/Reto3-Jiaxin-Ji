@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "username": "juan",
+    "password": "1234",
+    "name": "Juan Pérez",
+    "ownedCopies": [101, 201]
+  },
+  {
+    "id": 2,
+    "username": "ana",
+    "password": "abcd",
+    "name": "Ana García",
+    "ownedCopies": [102, 202]
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "title": "Inception",
+    "genre": "Ciencia ficción",
+    "year": 2010,
+    "description": "Un ladrón que roba secretos a través de los sueños debe realizar la misión más difícil de su vida.",
+    "director": "Christopher Nolan",
+    "copies": [
+      { "copyId": 101, "format": "Blu-ray", "status": "disponible" },
+      { "copyId": 102, "format": "DVD", "status": "prestada" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "The Matrix",
+    "genre": "Acción",
+    "year": 1999,
+    "description": "Un hacker descubre la verdadera naturaleza de su realidad y su rol en la guerra contra sus controladores.",
+    "director": "Lana y Lilly Wachowski",
+    "copies": [
+      { "copyId": 201, "format": "Digital", "status": "disponible" },
+      { "copyId": 202, "format": "DVD", "status": "disponible" }
+    ]
+  }
+]
