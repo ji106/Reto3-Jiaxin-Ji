@@ -10,12 +10,25 @@
     <p>Usuario: <%= usuarioActual.username %> </p>
     <a href="/logout">Cerrar Sesión</a>
 
-    <ul>
-        <% peliculas.forEach(p => { %>
-            <li>
-                <a href="/peliculas/<%= p.id %>"><%= p.titulo %></a>
-            </li>
-        <% }) %>
-    </ul>
+    <% peliculas.forEach(p => { %>
+        <div class="pelicula">
+            <h2><a href="/peliculas/<%= p.id %>"></a></h2>
+            <p>Género: <%= p.genre %></p>
+            <p>Director: <%= p.director %></p>
+            <p>Descripción: <%= p.description %></p>
+
+            <h3>Copias disponibles:</h3>
+            <ul>
+                <% p.copies.forEach(c => { %>
+                    <li>
+                        ID copia: <%= c.copyId %> |
+                        Formato: <%= c.format %> |
+                        Estado: <%= c.status %>
+                    </li>
+                <% }) %>
+            </ul>
+        </div>
+    <% }) %>
+    
 </body>
 </html>
