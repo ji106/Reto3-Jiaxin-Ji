@@ -2,6 +2,19 @@
   "name": "myapp",
   "version": "0.0.0",
   "private": true,
+  "description": "",
+  "homepage": "https://github.com/ji106/Reto3-Jiaxin-Ji#readme",
+  "bugs": {
+    "url": "https://github.com/ji106/Reto3-Jiaxin-Ji/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ji106/Reto3-Jiaxin-Ji.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "app.js",
   "scripts": {
     "start": "node ./bin/www"
   },
@@ -13,5 +26,6 @@
     "express-session": "^1.18.2",
     "http-errors": "~1.6.3",
     "morgan": "^1.10.1"
-  }
+  },
+  "devDependencies": {}
 }

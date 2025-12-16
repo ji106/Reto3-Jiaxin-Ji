@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link rel="stylesheet" href="/stylesheets/style.css">
 </head>
 <body>
-    <h1>Iniciar Sesión</h1>
-    <form action="/login" method="post">
-        <label>Usuario:</label>
-        <input type="text" name="usuario" required>
+    <div class="container">
+        <h1>Iniciar Sesión</h1>
+        <form action="/login" method="post">
+            <label>Usuario:</label>
+            <input type="text" name="usuario" required>
 
-        <label>Contraseña:</label>
-        <input type="password" name="clave" required>
-        
-        <button>Entrar</button>
-    </form>
+            <label>Contraseña:</label>
+            <input type="password" name="clave" required>
+            
+            <button>Entrar</button>
+        </form>
+    </div>
 </body>
 </html>
